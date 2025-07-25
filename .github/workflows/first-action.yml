@@ -1,5 +1,5 @@
 name: Firat workflow
-on: WOrkflow_dispatch
+on: Workflow_dispatch
 jobs:
  first-job:
   runs-on: ubontu-letest
