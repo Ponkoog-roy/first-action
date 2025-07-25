@@ -1,0 +1,11 @@
+name: Firat workflow
+on: WOrkflow_dispatch
+jobs:
+ first-job:
+  runs-on: ubontu-letest
+  steps:
+  -name: print greating
+   run: echo"hellow budy"
+  -name: print budy
+   run: echo"Done-Buy"
+
