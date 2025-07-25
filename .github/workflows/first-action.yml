@@ -1,11 +1,11 @@
 name: First workflow
 on: workflow_dispatch
 jobs:
- first-job:
-  runs-on: ubontu-letest
-  steps:
-  - name: print greating
-    run: echo" hellow budy "
-  - name: print budy
-    run: echo"Done-Buy"
+  first-job:
+   runs-on: ubontu-letest
+   steps:
+   - name: print greating
+     run: echo" hellow budy "
+   - name: print budy
+     run: echo"Done-Buy"
 
